@@ -2,90 +2,178 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ganesh Chaturthi 2025</title>
-
-  <!-- Fonts & Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-  <!-- AOS Animations -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <div class="logo">🪔 Ganesh Chaturthi 2025</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#schedule">Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#organisers">Organisers</a>
+    </nav>
+  </header>
 
-  <nav>
-    <a href="#hero">Home</a>
-    <a href="#schedule">Schedule</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#about">About</a>
-    <a href="#activities">Activities</a>
-    <a href="#organizers">Organizers</a>
-  </nav>
+  <section class="hero">
+    <div class="overlay">
+      <h1><span class="highlight">Ganesh Chaturthi</span> <br>2025</h1>
+      <p>Join our vibrant community celebration of Lord Ganesha with<br>
+         three days of festivities, cultural programs, and spiritual activities</p>
 
-  <section id="hero">
-    <div class="hero-img">
-      <img src="images/ganesha-float.png" alt="Floating Ganesha" />
+      <div class="cards">
+        <div class="card">
+          <div class="icon">📅</div>
+          <h3>3 Days of Celebration</h3>
+          <p>September 19–21, 2025</p>
+        </div>
+        <div class="card">
+          <div class="icon">📍</div>
+          <h3>Community Center</h3>
+          <p>Main Hall & Courtyard</p>
+        </div>
+        <div class="card">
+          <div class="icon">👨‍👩‍👧‍👦</div>
+          <h3>All Welcome</h3>
+          <p>Family-friendly events</p>
+        </div>
+      </div>
+
+      <a href="#schedule" class="btn">View Event Schedule</a>
     </div>
-    <h1>Ganesh Chaturthi 2025</h1>
-    <p>Celebrate 3 days of devotion, joy, and unity</p>
-    <a href="#schedule" class="btn">View Schedule</a>
   </section>
 
-  <section id="schedule" data-aos="fade-up">
-    <h2><i class="fas fa-calendar-alt"></i> Event Schedule</h2>
-    <ul>
-      <li><strong>Day 1:</strong> 6:00 PM – Ganesh Pooja & Decoration</li>
-      <li><strong>Day 2:</strong> 5:00 PM – Games & Cultural Programs</li>
-      <li><strong>Day 3:</strong> 4:00 PM – Final Aarti & Visarjan</li>
-    </ul>
-  </section>
+  <section class="event-schedule" id="schedule">
+    <h2>Event Schedule</h2>
 
-  <section id="gallery" data-aos="fade-up">
-    <h2><i class="fas fa-image"></i> Gallery</h2>
-    <div class="gallery">
-      <img src="images/ganesha1.jpg" alt="2024 Ganesha" />
-      <img src="images/ganesha2.jpg" alt="Stage Decor" />
-      <img src="images/ganesha3.jpg" alt="Cultural Event" />
+    <div class="day-card day-1">
+      <h3>1. Ganesh Sthapana <span>- Installation and Welcome Ceremony</span></h3>
+      <p><strong>📍 Location:</strong> Community Center | <strong>🗓️ Date:</strong> September 19, 2025</p>
+      <ul>
+        <li>⭐ 6:00 AM - <strong>Ganesh Sthapana Ritual</strong></li>
+        <li>🎵 8:00 AM - <strong>Morning Aarti</strong></li>
+        <li>🍽️ 12:00 PM - <strong>Prasad Distribution</strong></li>
+        <li>�퇑 6:00 PM - <strong>Evening Cultural Program</strong></li>
+        <li>🎵 8:00 PM - <strong>Night Aarti</strong></li>
+      </ul>
+    </div>
+
+    <div class="day-card day-2">
+      <h3>2. Madhya Kaal <span>- Community Celebrations</span></h3>
+      <p><strong>📍 Location:</strong> Community Center | <strong>🗓️ Date:</strong> September 20, 2025</p>
+      <ul>
+        <li>🎵 7:00 AM - <strong>Morning Prayers</strong></li>
+        <li>🧒 10:00 AM - <strong>Children's Activities</strong></li>
+        <li>🍽️ 1:00 PM - <strong>Community Feast</strong></li>
+        <li>🎵 4:00 PM - <strong>Bhajan Session</strong></li>
+        <li>�퇑 7:00 PM - <strong>Cultural Competition</strong></li>
+      </ul>
+    </div>
+
+    <div class="day-card day-3">
+      <h3>3. Ganesh Visarjan <span>- Farewell Procession</span></h3>
+      <p><strong>📍 Location:</strong> Community Center | <strong>🗓️ Date:</strong> September 21, 2025</p>
+      <ul>
+        <li>🎵 8:00 AM - <strong>Final Aarti</strong></li>
+        <li>⭐ 10:00 AM - <strong>Preparation for Visarjan</strong></li>
+        <li>�퇑 4:00 PM - <strong>Grand Procession</strong></li>
+        <li>⭐ 6:00 PM - <strong>Visarjan Ceremony</strong></li>
+        <li>🍽️ 8:00 PM - <strong>Community Dinner</strong></li>
+      </ul>
     </div>
   </section>
 
-  <section id="about" data-aos="fade-up">
-    <h2><i class="fas fa-info-circle"></i> About the Event</h2>
-    <p>Ganesh Chaturthi is our most cherished celebration. Every year we welcome Lord Ganesha with love, devotion, and joy. This 3-day celebration includes poojas, games, cultural events, and visarjan with community spirit.</p>
-  </section>
+  <!-- GALLERY SECTION -->
+<section class="gallery" id="gallery">
+  <h2>Previous Years Gallery</h2>
+  <p class="section-subtitle">Memories from past celebrations – joy, devotion & unity</p>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="images/gallery1.jpg" alt="Celebration 2024">
+      <span>Celebration 2024</span>
+    </div>
+    <div class="gallery-item">
+      <img src="images/gallery2.jpg" alt="Community Celebration 2024">
+      <span>Community Celebration 2024</span>
+    </div>
+    <div class="gallery-item">
+      <img src="images/gallery3.jpg" alt="Presentation 2023">
+      <span>Presentation 2023</span>
+    </div>
+    <div class="gallery-item">
+      <img src="images/gallery4.jpg" alt="Stage Show 2023">
+      <span>Stage Show 2023</span>
+    </div>
+  </div>
+</section>
 
-  <section id="activities" data-aos="fade-up">
-    <h2><i class="fas fa-star"></i> Past Activities</h2>
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+  <h2>About Our Celebration</h2>
+  <p class="section-subtitle">A legacy of devotion and culture for over a decade</p>
+
+  <div class="stats-grid">
+    <div class="stat-box">
+      <h3>15+</h3>
+      <p>Years of Celebration</p>
+    </div>
+    <div class="stat-box">
+      <h3>500+</h3>
+      <p>Community Members</p>
+    </div>
+    <div class="stat-box">
+      <h3>1000+</h3>
+      <p>Volunteers</p>
+    </div>
+    <div class="stat-box">
+      <h3>50+</h3>
+      <p>Cultural Programs</p>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <h3>Our Journey</h3>
     <ul>
-      <li>Rangoli & Drawing Competitions</li>
-      <li>Bhajan Evenings & Light Shows</li>
-      <li>Kids’ Games & Musical Chairs</li>
-      <li>Daily Aarti with Prasadam</li>
+      <li><span>2010</span> – First Community Celebration 🎉</li>
+      <li><span>2015</span> – Cultural Programs Introduced 🎭</li>
+      <li><span>2020</span> – Virtual Celebrations 💻</li>
+      <li><span>2023</span> – Grand Community Center 🏛️</li>
     </ul>
+  </div>
+</section>
+
+
+
+  <section class="organisers" id="organisers">
+    <h2>Meet the Organisers</h2>
+
+    <div class="contact-card">
+      <div class="photo-column">
+        <img src="images/tripti.jpg" alt="Tripti Mishra" class="organiser-photo">
+        <p class="organiser-name">Tripti Mishra</p>
+      </div>
+      <div class="organiser-info">
+        <p><strong>Event Coordinator</strong><br>
+        📞 +91 98875 58200<br>
+        ✉️ mishratripti28@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="photo-column">
+        <img src="images/manisha.jpg" alt="Talari Manisha" class="organiser-photo">
+        <p class="organiser-name">Talari Manisha</p>
+      </div>
+      <div class="organiser-info">
+        <p><strong>Event Coordinator</strong><br>
+        📞 +91 83280 99260<br>
+        ✉️ manishatalari288@gmail.com</p>
+      </div>
+    </div>
   </section>
-
-  <section id="organizers" data-aos="fade-up">
-    <h2><i class="fas fa-users"></i> Organizers</h2>
-    <ul>
-      <li><strong>Sai:</strong> +91 9701193329</li>
-      <li><strong>Sita:</strong> +91 98765 43211</li>
-      <li><strong>Email:</strong> ganeshutsav2025@example.com</li>
-    </ul>
-  </section>
-
-  <footer>
-    &copy; 2025 Ganesh Chaturthi Committee | Designed with ❤️ by the Community
-  </footer>
-
-  <!-- AOS Init -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
 </body>
 </html>
