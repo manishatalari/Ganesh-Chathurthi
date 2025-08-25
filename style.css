@@ -393,3 +393,84 @@ section {
     font-size: 1rem;
   }
 }
+
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://images.unsplash.com/photo-1605693393219-1d7f420b4d63') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  padding: 15px;
+}
+
+/* Header / Title */
+header h1 {
+  font-size: 1.8rem; /* Large for mobile */
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Section Styling */
+section {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Headings */
+section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #ffd700;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+/* Footer */
+footer {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* 🎯 Responsive - for larger screens */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+  }
+  section {
+    padding: 25px;
+  }
+  section h2 {
+    font-size: 1.5rem;
+  }
+  ul li {
+    font-size: 1.1rem;
+  }
+}
